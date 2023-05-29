@@ -65,6 +65,7 @@ header h1 img {
   background-image: url(../image/main.png);
   height: 700px;
   background-size: cover;
+  background-position: center bottom;
 }
 
 .main_title {
@@ -317,6 +318,13 @@ footer small {
 }
 
 @media (min-width:1000px) {
+  .main_bg {
+    background-image: url(../image/star_bg.png);
+    background-size: 1500px auto;
+    background-repeat: no-repeat;
+    background-position: center 1100px;
+  }
+
   .title2 {
     font-size: 3rem;
   }
@@ -577,20 +585,20 @@ footer small {
 }
 
 @media(min-width:1600px) {
-  .main_kv {
+  /* .main_kv {
     background-position: 0 -160px;
-  }
+  } */
 }
 
 @media(min-width:1960px) {
-  .main_kv {
+  /* .main_kv {
     background-position: 0 -300px;
-  }
+  } */
 
 }
 
 @media(min-width:3000px) {
-  .main_kv {
+  /* .main_kv {
     background-position: 0 -800px;
-  }
+  } */
 }
