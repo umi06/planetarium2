@@ -169,19 +169,19 @@ header h1 img {
   margin-top: 1rem;
 }
 
-#gallery .gbi_star03 {
-  position: absolute;
-  right: -600px;
-  top: -500px;
-  z-index: -99;
+#gallery .gbi_star03,
+#gallery .gbi_star04 {
+  display: none;
 }
 
-#gallery .gbi_star04 {
+
+
+/* #gallery .gbi_star04 {
   position: absolute;
   left: -800px;
   bottom: -200px;
   z-index: -99;
-}
+} */
 
 #access dt,
 #access dd {
@@ -380,6 +380,18 @@ footer small {
 
   .gallery_rel {
     position: relative;
+  }
+
+  #gallery .gbi_star03,
+  #gallery .gbi_star04 {
+    display: block;
+  }
+
+  #gallery .gbi_star03 {
+    position: absolute;
+    right: -600px;
+    top: -500px;
+    z-index: -99;
   }
 
   #gallery .gbi_star04 {
