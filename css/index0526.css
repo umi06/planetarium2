@@ -70,15 +70,14 @@ header {
 }
 
 .header_flex {
-  padding: 24px;
+	padding: 40px;
 }
 
 header h1 img {
-  width: 60px;
-  height: 30px;
-  object-fit: contain;
-  animation: start 3s;
-
+	width: 80px;
+	height: 40px;
+	object-fit: contain;
+	animation: start 3s;
 }
 
 .main_area {
