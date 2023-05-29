@@ -24,6 +24,26 @@ img {
   width: 100%;
 }
 
+.main_bg {
+  background-image: url(../image/star_bg.png);
+  background-size: contain;
+  /* background-repeat: no-repeat; */
+  background-position: center;
+  background-color: #ffffff28;
+  position: relative;
+  z-index: -2;
+}
+
+.main_bg::before {
+  content: "";
+  background-color: #ffffffb8;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
 
 
 .container {
@@ -323,6 +343,10 @@ footer small {
     background-size: 1500px auto;
     background-repeat: no-repeat;
     background-position: center 1100px;
+  }
+
+  .main_bg::before {
+    background-color: transparent;
   }
 
   .title2 {
