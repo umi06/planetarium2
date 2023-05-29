@@ -149,53 +149,9 @@ header h1 img {
   /* position: relative; */
 }
 
-/* 
-.bg_img_star1 {
-  background-image: url(../image/star03.png);
-  width: 100vw;
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-position: 97% 53%;
-  background-size: contain;
-} */
-
-/* .bg_img_star2 {
-  width: 100vw;
-  height: 100vh;
-  background-image:
-    linear-gradient(140deg,
-      #00f3ffA0,
-      #0028b960 40%,
-      #00f3ff60 60%,
-      #00f3ffA0),
-    url(../image/star04.png);
-  background-repeat: no-repeat;
-  background-position: 50%;
-  animation: move 20s infinite both;
-} */
 .gallery_box {
   position: relative;
 }
-
-/* .bg_img {
-  position: absolute;
-  background-image: url(../image/star03.png);
-  top: -700px;
-  width: 1000px;
-  height: 1000px;
-  z-index: -99;
-  right: -500px;
-} */
-
-/* .bg_img2 {
-  position: absolute;
-  background-image: url(../image/star03.png);
-  bottom: -400px;
-  width: 1000px;
-  height: 1000px;
-  z-index: -99;
-  left: -714px;
-} */
 
 .gallery_box img {
   margin-top: 2rem;
@@ -211,6 +167,20 @@ header h1 img {
 .gallery_text {
   padding: 0 24px;
   margin-top: 1rem;
+}
+
+#gallery .gbi_star03 {
+  position: absolute;
+  right: -600px;
+  top: -500px;
+  z-index: -99;
+}
+
+#gallery .gbi_star04 {
+  position: absolute;
+  left: -800px;
+  bottom: -200px;
+  z-index: -99;
 }
 
 #access dt,
@@ -248,6 +218,11 @@ header h1 img {
 
 .dl_line {
   border-bottom: 1px solid #999999;
+}
+
+#access {
+  /* z-index: 1; */
+  position: relative;
 }
 
 #access dt {
@@ -342,13 +317,6 @@ footer small {
 }
 
 @media (min-width:1000px) {
-  .main_bg {
-    background-image: url(../image/star_bg.png);
-    background-repeat: no-repeat;
-    /* background-size: 60%; */
-    background-position: -300px 843px;
-  }
-
   .title2 {
     font-size: 3rem;
   }
@@ -414,19 +382,26 @@ footer small {
     position: relative;
   }
 
+  #gallery .gbi_star04 {
+    position: absolute;
+    left: -700px;
+    bottom: -500px;
+    z-index: -99;
+  }
+
   .border_l {
     width: 200px;
     border-top: 1px solid #999999;
     position: absolute;
     top: 30px;
-    left: 300px;
+    left: 320px;
   }
 
   .border_r {
     width: 200px;
     border-top: 1px solid #999999;
     position: absolute;
-    right: 289px;
+    right: 315px;
     bottom: 27px;
   }
 
@@ -450,7 +425,7 @@ footer small {
 
   .gallery_box_itemflex {
     display: flex;
-    gap: 24px;
+    /* gap: 24px; */
   }
 
   .gallery_box img {
@@ -471,13 +446,16 @@ footer small {
     order: -1;
   }
 
+  .gallery_box img.gbi_3 {
+    margin-top: -13rem;
+  }
+
   .gbi_2,
   .gbi_4 {
     padding: 0 24px;
     margin-top: 9.2rem;
-    width: 400px;
-    /* flex: 1; */
-
+    /* width: 400px; */
+    flex: 1;
   }
 
   .gallery_num {
@@ -596,19 +574,10 @@ footer small {
   .main_kv {
     background-position: 0 -300px;
   }
-}
 
-@media(min-width:1960px) {
-  .main_bg {
-    background-position: 100px 843px;
-  }
 }
 
 @media(min-width:3000px) {
-  .main_bg {
-    background-position: 600px 843px;
-  }
-
   .main_kv {
     background-position: 0 -800px;
   }
