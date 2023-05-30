@@ -70,14 +70,14 @@ header {
 }
 
 .header_flex {
-	padding: 40px;
+  padding: 40px;
 }
 
 header h1 img {
-	width: 80px;
-	height: 40px;
-	object-fit: contain;
-	animation: start 3s;
+  width: 80px;
+  height: 40px;
+  object-fit: contain;
+  animation: start 3s;
 }
 
 .main_area {
@@ -86,19 +86,20 @@ header h1 img {
 }
 
 .main_kv {
-  background-image: url(../image/main.png);
+  background-image: url(../image/main.JPG);
   height: 700px;
   background-size: cover;
   background-position: center bottom;
 }
 
 .main_title {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -150px;
-  margin-top: -60px;
+  /* position: absolute; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* margin-left: -150px; */
+  margin-top: 160px;
   animation: start 3s;
+  text-align: center;
 }
 
 .main_title img {
@@ -144,9 +145,9 @@ header h1 img {
   margin-top: 2rem;
   list-style: none;
   background: #fff;
-  box-shadow: 4px 4px #ccc;
+  box-shadow: 8px 8px #ccc;
   border-radius: 24px 0 24px 0;
-  padding: 16px;
+  padding: 12px 12px 24px;
   border-left: 2px solid #ccc;
   border-top: 2px solid #e6e6e6;
 }
@@ -165,7 +166,7 @@ header h1 img {
   border-radius: 8px;
   margin: 0 auto;
   text-decoration: none;
-  width: 50%;
+  width: 260px;
   text-align: center;
   margin-top: 1.2rem;
 }
@@ -255,7 +256,7 @@ header h1 img {
 }
 
 .footer_img {
-  background-image: url(../image/main.png);
+  background-image: url(../image/main.JPG);
   height: 600px;
   margin-top: 24px;
   background-size: cover;
@@ -325,11 +326,11 @@ footer small {
 
   #event ul {
     display: flex;
-    gap: 16px;
+    gap: 28px;
   }
 
   #event ul p {
-    height: 180px;
+    /* height: 180px; */
   }
 
   #event ul li {
@@ -358,11 +359,18 @@ footer small {
   }
 
   .main_title {
-    position: absolute;
-    top: 70%;
-    left: 31%;
-    margin-left: -200px;
-    margin-top: -80px;
+    /* position: absolute; */
+    /* top: 70%; */
+    /* left: 31%; */
+    /* margin-left: -200px; */
+    /* margin-top: -80px; */
+  }
+
+  .main_title {
+    margin-top: 260px;
+    animation: start 3s;
+    text-align: left;
+    padding: 24px;
   }
 
   .main_title img {
@@ -407,7 +415,7 @@ footer small {
   }
 
   #event ul p {
-    height: 120px;
+    /* height: 120px; */
   }
 
   #gallery {
@@ -442,14 +450,14 @@ footer small {
     border-top: 1px solid #999999;
     position: absolute;
     top: 30px;
-    left: 320px;
+    left: 340px;
   }
 
   .border_r {
     width: 200px;
     border-top: 1px solid #999999;
     position: absolute;
-    right: 315px;
+    right: 340px;
     bottom: 27px;
   }
 
