@@ -70,7 +70,7 @@ header {
 }
 
 .header_flex {
-	padding: 40px 0;
+  padding: 40px 0;
 }
 
 header h1 img {
@@ -137,6 +137,11 @@ header h1 img {
   margin: 8px auto 0;
 }
 
+#event a {
+  color: #999999;
+  text-decoration: none;
+}
+
 #event ul {
   margin-top: 2rem;
 }
@@ -150,6 +155,7 @@ header h1 img {
   padding: 12px 12px 24px;
   border-left: 2px solid #ccc;
   border-top: 2px solid #e6e6e6;
+  transition: opacity .3s;
 }
 
 #event ul li:hover {
