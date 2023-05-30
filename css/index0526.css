@@ -70,7 +70,7 @@ header {
 }
 
 .header_flex {
-  padding: 40px;
+	padding: 40px 0;
 }
 
 header h1 img {
@@ -150,6 +150,10 @@ header h1 img {
   padding: 12px 12px 24px;
   border-left: 2px solid #ccc;
   border-top: 2px solid #e6e6e6;
+}
+
+#event ul li:hover {
+  opacity: .9;
 }
 
 #event ul p {
@@ -610,7 +614,7 @@ footer small {
   }
 
   .btn {
-    transition: background-color .4s, color .4s;
+    transition: background-color 0.3s, color .4s;
   }
 
   .btn:hover {
