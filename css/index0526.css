@@ -26,7 +26,7 @@ img {
 
 main,
 footer {
-  z-index: 10;
+  z-index: 1;
   position: relative;
 }
 
@@ -70,7 +70,10 @@ header {
 }
 
 .header_flex {
+  display: flex;
+  justify-content: space-between;
   padding: 40px 0;
+  align-items: center;
 }
 
 header h1 img {
@@ -78,6 +81,79 @@ header h1 img {
   height: 40px;
   object-fit: contain;
   animation: start 3s;
+}
+
+
+
+.sp_menu #open {
+  font-size: 32px;
+  cursor: pointer;
+  color: #ffffffb5;
+  vertical-align: middle;
+}
+
+.sp_menu #open.hide {
+  display: none;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(147, 147, 147, 0.95);
+  text-align: center;
+  padding: 160px 64px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .6s;
+  z-index: 2;
+}
+
+.overlay li {
+  opacity: 0;
+  transform: translateY(16px);
+  margin-top: 32px;
+  transition: opacity .6s, transform .6s;
+}
+
+.overlay.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.overlay.show li {
+  opacity: 1;
+  transform: none;
+}
+
+.overlay.show li:nth-child(1) {
+  transition-delay: .1s;
+}
+
+.overlay.show li:nth-child(2) {
+  transition-delay: .2s;
+}
+
+.overlay.show li:nth-child(3) {
+  transition-delay: .3s;
+}
+
+.overlay li a {
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 0.2em;
+  animation: start 3s;
+}
+
+.overlay #close {
+  position: absolute;
+  top: 44px;
+  right: 20px;
+  font-size: 32px;
+  cursor: pointer;
+  color: #fff;
 }
 
 .main_area {
@@ -329,10 +405,7 @@ footer small {
 }
 
 @media(min-width:800px) {
-  .header_flex {
-    display: flex;
-    justify-content: space-between;
-  }
+
 
   #event ul {
     display: flex;
@@ -405,6 +478,9 @@ footer small {
     display: block;
   }
 
+  .sp_menu {
+    display: none;
+  }
 
   .header_nav ul {
     display: flex;
@@ -445,14 +521,14 @@ footer small {
     position: absolute;
     right: -600px;
     top: -500px;
-    z-index: -99;
+    z-index: -1;
   }
 
   #gallery .gbi_star04 {
     position: absolute;
     left: -700px;
     bottom: -500px;
-    z-index: -99;
+    z-index: -1;
   }
 
   .border_l {
@@ -496,7 +572,7 @@ footer small {
 
   .gallery_box img {
     margin-top: 4rem;
-    z-index: 1;
+    z-index: 4;
   }
 
   .gallery_text {
