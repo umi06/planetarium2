@@ -90,6 +90,7 @@ header h1 img {
   cursor: pointer;
   color: #ffffffb5;
   vertical-align: middle;
+  text-shadow: 0 0 16px #fff;
 }
 
 .sp_menu #open.hide {
@@ -145,6 +146,8 @@ header h1 img {
   color: #fff;
   letter-spacing: 0.2em;
   animation: start 3s;
+  text-shadow: 0 0 16px #fff;
+
 }
 
 .overlay #close {
@@ -154,6 +157,8 @@ header h1 img {
   font-size: 32px;
   cursor: pointer;
   color: #fff;
+  text-shadow: 0 0 16px #fff;
+
 }
 
 .main_area {
@@ -366,6 +371,7 @@ header h1 img {
   display: block;
   text-align: center;
   padding: 18px;
+  text-shadow: 0 0 16px #fff;
 }
 
 
@@ -494,6 +500,7 @@ footer small {
     color: #fff;
     text-decoration: none;
     letter-spacing: 0.2em;
+    text-shadow: 0 0 16px #fff;
   }
 
   .title2 {
