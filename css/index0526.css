@@ -152,13 +152,12 @@ header h1 img {
 
 .overlay #close {
   position: absolute;
-  top: 44px;
+  top: 48px;
   right: 20px;
   font-size: 32px;
   cursor: pointer;
   color: #fff;
   text-shadow: 0 0 16px #fff;
-
 }
 
 .main_area {
