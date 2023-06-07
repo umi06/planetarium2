@@ -350,7 +350,7 @@ header h1 img {
 .footer_img {
   background-image: url(../image/main.JPG);
   height: 600px;
-  margin-top: 24px;
+  /* margin-top: 24px; */
   background-size: cover;
   background-position: 30%;
   /* opacity: 0.8; */
@@ -409,6 +409,30 @@ footer small {
   color: #fff;
   font-size: 2rem;
   display: inline-block;
+}
+
+a.page_up {
+  display: block;
+  width: 100px;
+  height: 100px;
+  line-height: 50px;
+  text-decoration: none;
+  color: #535353;
+  /* background: #ccc; */
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  z-index: 5;
+  position: relative;
+  /* border-left: 1px solid #ccc; */
+  border-top: 1px solid #ccc;
+  /* border-right: 1px solid #ccc; */
+  border-radius: 50%;
+  margin-top: 2rem;
+}
+
+a.page_up div {
+  margin-top: -1rem;
 }
 
 @media(min-width:800px) {
@@ -656,7 +680,7 @@ footer small {
   }
 
   .footer_img {
-    margin-top: 10rem;
+    /* margin-top: 10rem; */
     height: 200px;
   }
 
@@ -711,6 +735,10 @@ footer small {
     background-color: #fff;
     color: #999999;
     border: 1px solid #999999;
+  }
+
+  a.page_up {
+    margin-top: 10rem;
   }
 }
 
