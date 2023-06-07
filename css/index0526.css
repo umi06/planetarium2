@@ -290,7 +290,9 @@ header h1 img {
   display: none;
 }
 
-
+.maru {
+  pointer-events: none;
+}
 
 /* #gallery .gbi_star04 {
   position: absolute;
