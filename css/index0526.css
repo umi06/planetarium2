@@ -238,11 +238,11 @@ header h1 img {
   margin-top: 2rem;
   list-style: none;
   background: #fff;
-  box-shadow: 8px 8px #ccc;
+  box-shadow: 8px 8px 45px #ccc;
   border-radius: 24px 0 24px 0;
   padding: 12px 12px 24px;
-  border-left: 2px solid #ccc;
-  border-top: 2px solid #e6e6e6;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
   transition: opacity .3s;
 }
 
