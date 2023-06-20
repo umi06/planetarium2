@@ -208,9 +208,10 @@ header h1 img {
   letter-spacing: 0.5em;
   text-align: center;
   margin-top: 5rem;
-  color: white;
-  -webkit-text-stroke: 1px #535353;
-  font-weight: bold;
+  /* color: white; */
+  /* -webkit-text-stroke: 1px #ffffff; */
+  /* font-weight: bold; */
+  text-shadow: 0 0 8px #FFF;
 }
 
 .title3 {
@@ -654,8 +655,6 @@ a.page_up div {
     text-align: left;
   }
 
-  .gallery_text {}
-
   .gbi_2 .btn {
     margin: 1.2rem 0 0;
   }
@@ -748,23 +747,4 @@ a.page_up div {
   a.page_up {
     margin-top: 10rem;
   }
-}
-
-@media(min-width:1600px) {
-  /* .main_kv {
-    background-position: 0 -160px;
-  } */
-}
-
-@media(min-width:1960px) {
-  /* .main_kv {
-    background-position: 0 -300px;
-  } */
-
-}
-
-@media(min-width:3000px) {
-  /* .main_kv {
-    background-position: 0 -800px;
-  } */
 }
