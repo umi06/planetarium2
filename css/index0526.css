@@ -467,6 +467,11 @@ a.page_up div {
 }
 
 @media (min-width:1000px) {
+  body {
+    font-size: 1rem;
+    line-height: 1.8rem;
+  }
+
   .main_bg {
     background-image: url(../image/star_bg.png);
     background-size: 1500px auto;
